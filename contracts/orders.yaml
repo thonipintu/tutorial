@@ -14,7 +14,4 @@ schema:
     type: int32
   - name: total_amount
     doc: The total price of the order
-    type: decimal256
-  - name: order_status
-    doc: The current of the order
     type: string
