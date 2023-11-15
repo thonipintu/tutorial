@@ -6,16 +6,16 @@ namespace: Tutorial
 owner: ahmad.shohibus@pintu.co.id
 schema:
   - name: order_detail_id
-    type: integer
+    type: int64
     doc: Primary key of order_details table
   - name: order_id
-    type: integer
+    type: int64
     doc: Foreign key of order table
   - name: product_id
-    type: integer
+    type: int64
     doc: FK for product table
   - name: quantity
-    type: integer
+    type: int64
     doc: quantity of item
   - name: unit_price
     type: numeric
@@ -24,7 +24,7 @@ schema:
     type: numeric
     doc: total price in each order (quantity times unit_price)
   - name: vendor_id
-    type: integer
+    type: int64
     doc: FK for table vendor
   - name: product_image
     type: character varying
