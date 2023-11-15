@@ -18,17 +18,17 @@ schema:
     type: int64
     doc: quantity of item
   - name: unit_price
-    type: numeric
+    type: decimal256
     doc: Price per unit in item
   - name: total_price
-    type: numeric
+    type: decimal256
     doc: total price in each order (quantity times unit_price)
   - name: vendor_id
     type: int64
     doc: FK for table vendor
   - name: product_image
-    type: character varying
+    type: string
     doc: Image in blob format
   - name: product_category
-    type: character varying
+    type: string
     doc: Category of each product
